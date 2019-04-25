@@ -4,6 +4,7 @@
 
 ''       This program is distributed for educational purposes only.
 
+'' Based on https://github.com/NYAN-x-CAT/Disable-Windows-Defender
 
 If Not WScript.Arguments.Named.Exists("elevate") Then
   CreateObject("Shell.Application").ShellExecute WScript.FullName _
